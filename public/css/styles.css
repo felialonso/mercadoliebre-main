@@ -18,6 +18,11 @@ body{
     font-size: 16px;
 }
 
+.titulo{
+    text-align: center;
+}
+
+
 
 .burguer-menu{
     display: inline-block;
