@@ -17,3 +17,16 @@ body{
 .descripciones{
     font-size: 16px;
 }
+
+
+.burguer-menu{
+    display: inline-block;
+    background-color: #1259c3;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.hambContenedor{
+    text-align: center;
+}
