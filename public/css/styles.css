@@ -1,31 +1,63 @@
-body{
-    background-color: yellow;
-    font-family: 'Roboto';
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.titulares{
+header {
+    background-color: yellow;
+
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+main {
+    width: 90%;
+    margin: auto;
+    background-color: #ebebeb;
+}
+
+
+footer{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+.titulares {
     font-size: 24px;
 }
-.precios{
+
+.precios {
     font-size: 18px;
+    padding: 10px;
 }
 
-.descuentos{
+.descuentos {
     font-size: 12px;
+    padding: 10px;
+    color: #39b54a;
+
 }
 
-.descripciones{
+.descripciones {
     font-size: 16px;
+    padding: 10px;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     font-size: 12px;
 }
 
 
 
-.burguer-menu{
+.burguer-menu {
     display: inline-block;
     background-color: #1259c3;
     color: white;
@@ -33,6 +65,33 @@ body{
     border-radius: 10px;
     font-weight: bold;
 }
-.hambContenedor{
+
+.hambContenedor {
     text-align: center;
+}
+
+
+
+
+
+.circulo {
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 1px #39b54a;
+    color: #39b54a;
+    padding: 8px;
+}
+
+.article-box {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    border-bottom: solid 10 px #ebebeb;
+    
+}
+
+.icono{
+    color: #1259c3;
 }
