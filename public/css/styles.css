@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -78,8 +79,8 @@ footer {
 
 
 
-.circulo {
-    width: 40px;
+.circulo{
+    width: 60px;
     height: 40px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -87,7 +88,12 @@ footer {
     border: solid 1px #39b54a;
     color: #39b54a;
     padding: 8px;
-}
+    
+    }
+
+
+
+
 
 .contenedor{
     margin: auto;
@@ -101,7 +107,9 @@ footer {
     border-top: solid 1px #ebebeb;
     padding: 15px;
     text-align: center;
+    justify-content: center;
     border-bottom: solid 10 px #ebebeb;
+    
     
 }
 
