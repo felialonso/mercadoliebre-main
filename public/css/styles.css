@@ -20,7 +20,6 @@ main {
     width: 90%;
     margin: auto;
     background-color: #ebebeb;
-
 }
 
 
@@ -43,23 +42,53 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    margin: auto;
 }
 
-.precios {
-    font-size: 18px;
-    padding: 10px;
+
+.truck{
+    display: flex-end;
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: -10px;
+    margin-right: 35px;
 }
 
+.circulo{
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 1px #39b54a;
+    color: #39b54a;
+    padding: 8px;
+    align-items: baseline;
+}
+
+
+
+  .precios {
+    font-size: 20px;
+    padding: 5px;
+    align-self: flex-start;
+    line-height: 10px;
+}
+.probando{
+    display: flex;
+    
+}
 .descuentos {
-    font-size: 12px;
-    padding: 10px;
+    font-size: 10px;
+    padding: 5px;
     color: #0bed31;
+    align-self: flex-start;
 
 }
 
 .descripciones {
     font-size: 16px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .titulo {
@@ -113,9 +142,9 @@ footer {
     border-top: solid 1px #ebebeb;
     padding: 15px;
     text-align: center;
-    justify-content: center;
     border-bottom: solid 10 px #ebebeb;
     display:flex;
+    flex-direction: column;
     
     
     
@@ -144,6 +173,11 @@ footer {
      font-size: 12px;
      margin: 0;
      padding: 0;
+    }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
