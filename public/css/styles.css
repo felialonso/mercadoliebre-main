@@ -14,6 +14,8 @@
     width: 200px;
 }
 
+
+
 .copy-header{
     font-weight: 400;
     text-align: center;
@@ -50,15 +52,15 @@
     display: inline-block;
     padding: 5px 0;
     font-size: 17px;
+    
 }
 
 
 body {
     background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
-
+    
 }
-
 
 main {
     width: 90%;
@@ -67,11 +69,6 @@ main {
 }
 
 
-.centrar{
-    margin:auto;
-	display:block;
-
-}
 
 footer {
     text-align: center;
@@ -88,7 +85,6 @@ footer {
     text-align: center;
     margin: auto;
 }
-
 
 .truck{
     display: flex-end;
@@ -110,18 +106,18 @@ footer {
     align-items: baseline;
 }
 
-
-
   .precios {
     font-size: 20px;
     padding: 5px;
     align-self: flex-start;
     line-height: 10px;
 }
+
 .probando{
     display: flex;
     
 }
+
 .descuentos {
     font-size: 10px;
     padding: 5px;
@@ -130,21 +126,19 @@ footer {
 
 }
 
-.descripciones {
-    font-size: 16px;
-    padding: 5px;
+.searchbar{
+    width: 50%;
+    padding: 1px;
+    margin: 10px;
+    margin-top: 1px;
+    font-size: 15px;
+    margin-right: 0px;
 }
 
-.titulo {
-    text-align: center;
-    font-size: 12px;
+.button{
+    padding: 1px;
+    margin-bottom: 20px;
 }
-
-
-
-
-
-
 
 .nombreProducto{
     color: #9a9d9b;
@@ -153,27 +147,16 @@ footer {
     padding: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .contenedor{
     margin: auto;
     background-color: white;
-    width: 90%; 
+    width: 90%;
     padding-top: 5px;
     text-align: center;
     display: flexbox;
     box-shadow: 0px 0px 10px rgb(61, 61, 61);
  }
+
 .product{
     border-top: solid 1px #ebebeb;
     padding: 15px;
@@ -181,35 +164,13 @@ footer {
     border-bottom: solid 10px #ebebeb;
     display:flex;
     flex-direction: column;
-
-
-    
-    
-    
 }
-
-.box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
 
 .icono {
     color: #1259c3;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-
-
-.enlaces{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content:space-between
-
-}
-
 
 .card{
     display: flex;
@@ -224,11 +185,13 @@ footer {
 
 
 
+
 @media (min-width: 361px){
     .descrip{
         font-size: 16px;
         margin-bottom: 10px;
     }
+  
     article{
         box-shadow: 0px 0px 10px rgb(61, 61, 61);
     }
@@ -237,23 +200,18 @@ footer {
      margin: 0;
      padding: 0;
     }
-
-   
-    
-
-
-
-
-  
-
 }
-@media(min-width: 768px){
+
+
+
+@media(min-width: 769px){
     article{
       box-shadow:none
     }
 
     .main-header-top-bar{
         display: flex;
+        flex-wrap: nowrap;
         justify-content: space-between;
     }
 
@@ -283,6 +241,9 @@ footer {
         
     }
 
+  
+
+ 
 }
 
 
@@ -292,12 +253,17 @@ footer {
         margin: auto;
     }
 
-    .logo{
-        width: 250px;
+   
+    .main-header-top-bar{
+        align-items: center;
     }
-    
+
     .main-navbar{
-        margin: top 50px; ;
+        margin-top: 40px;
+    }
+
+    .main-navbar{
+        margin: center 50px;
     }
     .main-navbar li {
         margin: 0 10px;
@@ -311,8 +277,9 @@ footer {
 
     .copy-header{
         max-width: none;
+        text-align: right;
+        margin: 0;
     }
-
 }
 
 
