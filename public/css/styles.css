@@ -4,10 +4,54 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: yellow;
+.main-header {
+    background-color: #eac926;
+    padding: 20px;
 
 }
+
+.logo{
+    width: 200px;
+}
+
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.hamburguer-button{
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.main-navbar{
+    display: none;
+}
+
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
 
 body {
     background-color: #ebebeb;
@@ -98,18 +142,8 @@ footer {
 
 
 
-.burguer-menu {
-    display: inline-block;
-    background-color: #1259c3;
-    color: white;
-    padding: 15px;
-    border-radius: 10px;
-    font-weight: bold;
-}
 
-.hambContenedor {
-    text-align: center;
-}
+
 
 
 .nombreProducto{
@@ -212,10 +246,72 @@ footer {
   
 
 }
-@media(min-width: 769px){
+@media(min-width: 768px){
     article{
       box-shadow:none
     }
+
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }
+
+    .hamburguer-button{
+        display: none;
+    }
+
+
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .main-navbar ul {
+        display: flex;
+
+    }
+
+    .main-navbar li {
+        margin: 0 5px;
+        
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+    .main-header-top-bar, .main-navbar { 
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .logo{
+        width: 250px;
+    }
+    
+    .main-navbar{
+        margin: top 50px; ;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .main-navbar a {
+       font-size: 19px;
+    }
+
+    .copy-header{
+        max-width: none;
+    }
+
 }
 
 
@@ -230,15 +326,3 @@ footer {
 
 
 
-
-/*.circulo{
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 30%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    border: solid 1px #049e1e;
-    color: #049e1e;
-    padding: 5px;
-    }
-    */
