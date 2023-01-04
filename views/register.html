@@ -1,41 +1,42 @@
-<form action="register">
-  <p>
-    <label for="nombre y apellido">Nombre y apellido:</label>
-    <input type="text" />
-  </p>
+<link rel="stylesheet" href="/css/styles.css">
 
-  <p>
-    <label for="Nombre de usuario">Nombre de usuario</label>
-    <input type="text" />
-  </p>
+<form action="register" class="create-form">
+  
+  <div>
+  
+  <div class="control-formulario"> 
+  <input type="text" name="nombre y apellido" placeholder="Nombre y apellido" class="control" />
+  </div> 
 
-  <p>
-    <label for="Email">Email:</label>
-    <input type="email" />
-  </p>
+  <div class="control-formulario">
+  <input type="text" name="Nombre de usuario" placeholder="Nombre de usuario" class="control" />
+  </div> 
 
-  <p>Fecha de nacimiento</p>
+  <div class="control-formulario">
+    <input type="email" name="Email" placeholder="Email" class="control" />
+  </div> 
 
+  
+  <h3> Fecha de nacimiento </h3>
   <label>
-    <input type="date" name="nacimiento" />
+  <input type="date" name="nacimiento"/>
   </label>
-
-  <p>
-    <label for="Domicilio">Domicilio</label>
-    <input type="domicilio" />
-  </p>
+ 
+  <div class="control-formulario">
+  <input type="text" name="domicilio" placeholder="Domicilio" class="control"/>
+  </div> 
 
   <p>Perfil del usuario</p>
 
-  <p>
+  <div class="control-formulario">
     <label>
-      <input type="radio" name="perfil" value="comprador" />Comprador
-      <input type="radio" name="perfil" value="vendedor" />vendedor
+      <input type="radio" name="perfil" value="comprador"  />Comprador
+      <input type="radio" name="perfil" value="vendedor"  />vendedor
     </label>
-  </p>
-</form>
+  </div> 
 
 
+<div class="control-formulario">
 <p> Intereses </p>
     <label for="intereses"></label>
     <input type="checkbox" name="intereses" value="electro">Electro
@@ -43,24 +44,26 @@
     <input type="checkbox" name="intereses" value="Hogar">Hogar
     <input type="checkbox" name="intereses" value="jugueteria">Jugueteria
     <input type="checkbox" name="intereses" value="vidasana">Vida sana
+  </div>
 
 
-<br>
-
+<div class="control-formulario">
 <h3>Foto de usuario</h3>
 <input type="file" name="" id="">
-<br>
+  </div>
 
-<p>
-    <label for="Contraseña">Contraseña</label>
-    <input type="contraseña"/>
-  </p>
 
-  <p>
-    <label for="Contraseña">Confirmar contraseña</label>
-    <input type="contraseña"/>
-  </p>
+  <div class="control-formulario">
+   <input type="password" name="password" placeholder="Contraseña" class="control"/>
+  </div>
 
-  
+  <div class="control-formulario">
+  <input type="password" name="password" placeholder="Confirmar contraseña" class="control"/>
+  </div>
 
-<button onclick="location.href='/home.html'">Enviar</button>
+</form>
+
+</div>
+
+<button   type="reset">Borrar</button>
+<button onclick="location.href='./'">Enviar</button>

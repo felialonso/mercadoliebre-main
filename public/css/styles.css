@@ -181,6 +181,29 @@ footer {
 }
 
 
+.create-form{
+    padding: 20px 15px;
+    background-color: #dadada;
+}
+
+
+.control-formulario{
+    margin-bottom: 20px;
+}
+
+.control-formulario label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
 
 
 
