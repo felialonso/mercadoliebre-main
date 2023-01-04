@@ -201,6 +201,16 @@ footer {
     width: 100%;
     padding: 10px;
     border-radius: 10px;
+    border: 2px solid #f3f6f8;
+    padding-top: 10px;
+}
+
+.button-formulario{
+    background-color: #1259c3;
+    color: white;
+    border-radius: 6px;
+    width: 100%;
+    padding: 10px;
 }
 
 
