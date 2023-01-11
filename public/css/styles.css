@@ -8,21 +8,22 @@
     background-color: #eac926;
     padding: 20px;
 
+
 }
 
-.logo{
+.logo {
     width: 200px;
 }
 
 
 
-.copy-header{
+.copy-header {
     font-weight: 400;
     text-align: center;
 }
 
 
-.hamburguer-button{
+.hamburguer-button {
     background-color: #03264C;
     color: #ffffff;
     display: block;
@@ -34,32 +35,32 @@
     margin: auto;
 }
 
-.main-navbar{
+.main-navbar {
     display: none;
 }
 
-.main-navbar ul{
+.main-navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
-   
+
 }
 
 
-.main-navbar a{
+.main-navbar a {
     text-decoration: none;
     color: #222222;
     display: inline-block;
     padding: 5px 0;
     font-size: 17px;
-    
+
 }
 
 
 body {
     background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
 main {
@@ -75,7 +76,7 @@ footer {
     margin: auto;
     padding: 30px;
     padding-bottom: 10px;
-    
+
 }
 
 .titulares {
@@ -87,26 +88,26 @@ footer {
     margin: auto;
 }
 
-.truck{
+
+
+.fa-truck {
+    transition: all 450ms;
+}
+
+.fa-truck:hover {
+    transform: rotate(-90deg);
+}
+
+.truck {
     display: flex-end;
     font-size: 16px;
     text-align: right;
     margin-bottom: -10px;
     margin-right: 35px;
-    position: relative;
-    
+
 }
 
-.fa-truck{
-    transition: all 450ms;
-}
-.fa-truck:hover{
-    transform: rotate(-90deg);
-}
-
-
-
-.circulo{
+.circulo {
     width: 40px;
     height: 40px;
     -moz-border-radius: 50%;
@@ -116,18 +117,19 @@ footer {
     color: #39b54a;
     padding: 8px;
     align-items: baseline;
+
 }
 
-  .precios {
+.precios {
     font-size: 20px;
     padding: 5px;
     align-self: flex-start;
     line-height: 10px;
 }
 
-.probando{
+.probando {
     display: flex;
-    
+
 }
 
 .descuentos {
@@ -138,7 +140,7 @@ footer {
 
 }
 
-.searchbar{
+.searchbar {
     width: 100%;
     padding: 5px;
     margin: 10px;
@@ -146,70 +148,68 @@ footer {
     font-size: 15px;
     margin-right: 0px;
     text-align: center;
+    align-items: baseline;
 
 }
 
-.button{
+.button {
     padding: 1px;
     margin-bottom: 20px;
 }
 
-.nombreProducto{
+.nombreProducto {
     color: #9a9d9b;
     font-size: small;
     text-align: left;
     padding: 10px;
 }
 
-.contenedor{
+
+
+.contenedor {
     margin: auto;
     background-color: white;
     width: 90%;
     padding-top: 5px;
     text-align: center;
-    display: flexbox;
     box-shadow: 0px 0px 10px rgb(61, 61, 61);
- }
 
-.product:hover{
+}
+
+.product:hover {
     opacity: 1;
     background-color: #b3b5b4;
 }
 
 
- .product{
+.product {
     border-top: solid 1px #ebebeb;
     padding: 15px;
     text-align: center;
     border-bottom: solid 10px #ebebeb;
-    display:flex;
-    flex-direction: column;
     opacity: 0;
     transition: opacity 450ms;
-    
+    position:relative;
 }
 
-.icono {
-    color: #1259c3;
-    
-}
 
-.card{
+
+.card {
     display: flex;
     flex-direction: row;
     margin: auto;
     box-shadow: 0px 0px 10px rgb(61, 61, 61);
-    
+
 }
 
 
-.create-form{
+.create-form {
     padding: 20px 15px;
     background-color: #dadada;
 }
 
 
-.control-formulario{
+.control-formulario {
     margin-bottom: 20px;
 }
 
@@ -219,7 +219,7 @@ footer {
     display: block;
 }
 
-.control{
+.control {
     width: 100%;
     padding: 10px;
     border-radius: 10px;
@@ -227,7 +227,7 @@ footer {
     padding-top: 10px;
 }
 
-.button-formulario{
+.button-formulario {
     background-color: #878787;
     color: white;
     border-radius: 6px;
@@ -235,61 +235,70 @@ footer {
     padding: 10px;
 }
 
-.button-formulario:hover{
+.button-formulario:hover {
     background-color: #0022AA;
 }
 
 
+.icono{
+    color: rgb(13, 5, 121);
+}
 
-
-
-
-
-
-
-@media (min-width: 361px){
-    .descrip{
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-  
-    article{
-        box-shadow: 0px 0px 10px rgb(61, 61, 61);
-    }
-    ul{
-     font-size: 12px;
-     margin: 0;
-     padding: 0;
-    }
+.icono:hover{
+   color: #d41e0d;
 }
 
 
 
-@media(min-width: 769px){
-    article{
-      box-shadow:none
+
+
+
+@media (min-width: 361px) {
+    .descrip {
+        font-size: 16px;
+        margin-bottom: 10px;
     }
 
-    .main-header-top-bar{
+    article {
+        box-shadow: 0px 0px 10px rgb(61, 61, 61);
+    }
+
+    ul {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+}
+
+
+
+@media(min-width: 769px) {
+    article {
+        box-shadow: none
+    }
+
+    .main-header-top-bar {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
     }
 
-    .copy-header{
+    .copy-header {
         max-width: 350px;
         text-align: right;
     }
 
-    .hamburguer-button{
+    .hamburguer-button {
         display: none;
     }
 
 
-    .main-navbar{
+    .main-navbar {
         display: flex;
         justify-content: space-between;
-        
+
     }
 
     .main-navbar ul {
@@ -299,55 +308,65 @@ footer {
 
     .main-navbar li {
         margin: 0 5px;
-        
+
     }
 
-  
 
- 
+
+
 }
 
 
 @media (min-width: 1200px) {
-    .main-header-top-bar, .main-navbar { 
+
+    .main-header-top-bar,
+    .main-navbar {
         max-width: 1200px;
-       margin: auto;
+        margin: auto;
+
     }
 
-   
-    .main-header-top-bar{
+
+    .main-header-top-bar {
         align-items: center;
+        text-align: center;
+        align-items: baseline;
     }
 
-    .main-navbar{
+    .main-navbar {
         margin-top: 40px;
+
     }
 
-    .main-navbar{
+    .main-navbar {
         margin: center 50px;
+
     }
+
     .main-navbar li {
         margin: 0 10px;
         font-size: 22px;
         font-weight: 400;
+
     }
 
     .main-navbar a {
-       font-size: 19px;
+        font-size: 19px;
+        padding: 10px;
     }
 
-    .copy-header{
+    .copy-header {
         max-width: none;
         text-align: right;
         margin: 0;
     }
 
-    footer{
+    footer {
         display: flex;
         flex-wrap: nowrap;
     }
 
-    .contenedor-footer{
+    .contenedor-footer {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -355,16 +374,3 @@ footer {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
