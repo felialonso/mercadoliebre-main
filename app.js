@@ -21,6 +21,5 @@ app.get('/login', (req, res)=> {
 
 
 
-app.listen(3010, ()=>{
-    console.log('Servidor corriendo en el puerto 3010');
-})
+const port = process.env.PORT || 3001;
+app.listen(port,()=>console.log(`Servidor corriendo en el puerto ${port}`));
