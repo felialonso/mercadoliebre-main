@@ -98,27 +98,9 @@ footer {
     transform: rotate(-90deg);
 }
 
-.truck {
-    display: flex-end;
-    font-size: 16px;
-    text-align: right;
-    margin-bottom: -10px;
-    margin-right: 35px;
 
-}
 
-.circulo {
-    width: 40px;
-    height: 40px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    border: solid 1px #39b54a;
-    color: #39b54a;
-    padding: 8px;
-    align-items: baseline;
 
-}
 
 .precios {
     font-size: 20px;
@@ -176,10 +158,7 @@ footer {
 
 }
 
-.product:hover {
-    opacity: 1;
-    background-color: #b3b5b4;
-}
+
 
 
 .product {
@@ -187,12 +166,31 @@ footer {
     padding: 15px;
     text-align: center;
     border-bottom: solid 10px #ebebeb;
-    opacity: 0;
-    transition: opacity 450ms;
     position:relative;
 }
 
 
+.circulo {
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 1px #39b54a;
+    color: #39b54a;
+    padding: 8px;
+    align-items: baseline;
+}
+
+.truck {
+    display: flex-end;
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: -10px;
+    margin-right: 35px;
+    padding-bottom: 5px;
+
+}
 
 .card {
     display: flex;
